@@ -22,7 +22,7 @@ Barna Szalai / sz.b@subdesign.hu
 
 3. Check the 'available' flag if it's 1 then .dat file installed to the correct path. If not you have to move the file(s):
 
-     <?php print_r( geoip_db_get_all_info() ); ?>
+		<?php print_r( geoip_db_get_all_info() ); ?>
 
 4. Import sql file into your database
 
